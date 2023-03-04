@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+</body>
+<script>
+  let array = [6, 4, 8, 5, 10, 3, 4, 20];
+  let numB = 0;
+  let sumDivi5 = 0;
+  for (let i = 0; i <= array.length; i++){
+    if (array[i] % 5 == 0){
+      console.log(array[i] + ' chia hết cho 5')
+      numB = array[i];
+      sumDivi5 += numB;
+    }
+  }console.log('tổng các phần tử chia hết cho 5 trong mảng ' +sumDivi5);
+</script>
+</html>

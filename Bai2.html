@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+</body>
+<script>
+  let n = parseInt(prompt('nhập số'))
+  let divia = 0;
+  let demsochiahet3 = 0;
+  for (let i = 1; i <= n; i++){
+    if (i % 3 == 0){
+      document.write(i + '<br>')
+      demsochiahet3++
+    }
+    if (demsochiahet3 == 15){
+      break;
+    }
+  }
+</script>
+</html>
